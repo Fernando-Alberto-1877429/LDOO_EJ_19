@@ -1,0 +1,84 @@
+body{
+	background-image: url("wallpaper.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+	font-family: Arial;
+	color: #442222;
+}
+
+li{
+	font-family: Arial;
+}
+
+p{
+	font-family: Arial;
+	color: #442222;
+}
+
+table, th, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.me {
+	border-radius: 50%;
+}
+
+#menu{
+	background-color: #662200;
+}
+		
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+		
+#menu ul li{
+	display: inline-block;
+}
+		
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+		
+#menu ul li a:hover{
+	background-color: #ffaa80;
+}
+
+div#vertical{
+	width: 200px;
+	margin-top: 50px;
+	background-color: #662200;
+}
+
+div#vertical ul{
+	list-style: none;
+}
+
+div#vertical ul li{
+	margin-top: 15px;
+	width: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition: padding-left 0.6s;
+}
+
+div#vertical ul li:hover{
+	padding: 50px;
+	color: white;
+}
+		
+.contacto{
+	float: right;
+}
