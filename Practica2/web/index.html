@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Práctica 2</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <h1 style = "font-family: Arial">Práctica 2</h1>
+        <p style = "font-family: Arial">Formulario</p>
+        <form action = "/Practica2/ServletBasico" method = "post" style = "font-family: Arial">
+            <fieldset>
+                <legend>Información Personal:</legend>
+                    Nombre del usuario:
+                        <br><input type = "text" name = "name"><br><br>
+                    Contraseña:
+                        <br><input type = "password" name = "pass"><br><br>
+                    Correo electrónico: 
+                        <br><input type = "email" name = "email"><br><br>
+                    Fecha de nacimiento: 
+                        <br><input type = "date" name = "birth"><br><br>
+                    Experiencia:    
+                        <br><input type = "range" name = "exp"><br><br>
+                    Hora de registro:        
+                        <br><input type = "time" name = "log"><br><br>
+                    Carrera:
+                        <br>
+                        <select name = "carrera">
+                            <option value = "LSTI">LSTI</option>
+                            <option value = "LCC">LCC</option>
+                        </select>
+                        <br><br>
+                    <!-- Botón -->
+                        <input type = "reset" value = "Limpiar">
+                        <input type = "submit" value = "Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>
